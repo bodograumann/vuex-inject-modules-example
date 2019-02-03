@@ -7,10 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
     "vue": "^2.5.22",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-class-modules": "^0.4.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
@@ -25,8 +28,7 @@
     }
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
+    "firefox esr",
+    "last 1 chrome version"
   ]
 }
