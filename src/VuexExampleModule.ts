@@ -10,6 +10,8 @@ export default class VuexExampleModule extends VuexModule {
     super(options);
   }
 
+  testNumber: number = 3.14152;
+
   get testString() {
     return "foo bar";
   }
